@@ -1,7 +1,7 @@
 # Huffman Code Tree with ASCII Sequence
 
 This code implements a Huffman code tree to encode and decode text using ASCII characters. The program takes a text file as input and generates two output files: `code.txt` and `encodemsg.txt`.
-note that: (i) We use the letter with the smallest ASCII code as the representative of a subtree; (ii) in case of ambiguity, select the two trees with the smallest representatives and when combining the two trees, the one with the smaller representative will be on the left!
+Note that: (i) We use the letter with the smallest ASCII code as the representative of a subtree; (ii) in case of ambiguity, select the two trees with the smallest representatives and when combining the two trees, the one with the smaller representative will be on the left
 - `main.cpp`: Contains the main code for executing the Huffman encoding and decoding operations.
 - `code.txt`: Output file that stores the Huffman codes for each ASCII character in the input text.
 - `encodemsg.txt`: Output file that stores the encoded message using the generated Huffman codes.
